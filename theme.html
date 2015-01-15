@@ -145,7 +145,7 @@
             </div>
             <div class="post-info">
               <div class="info-left">
-                <p class="date">{{ post.created_at|format_date }}</p>
+                <p class="date"><i class="fa fa-calendar"></i>{{ post.created_at|format_date }}</p>
               </div>
               <div class="info-right">
                 <p class="read-more"><a href="{{ post.permalink }}">Read More &raquo;</a></p>
@@ -239,6 +239,8 @@
     {% endif %}
 
     {{ footer_meta }}
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 
     <!-- bootstrap -->
     <script src="http://postach.io/static/themes/_assets/bootstrap/js/bootstrap.min.js" /></script>
