@@ -491,7 +491,7 @@ div.post div.post-body {
   line-height: 28px;
 }
 div.post div.post-body div {
-    margin-top: 6px;
+    margin-top: 18px; /* equal to line-height */
 }
 div.post div.post-body .post-content {
   display: block;
