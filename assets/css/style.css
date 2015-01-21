@@ -490,6 +490,9 @@ div.post div.post-body {
   font-size: 18px;
   line-height: 28px;
 }
+div.post div.post-body div {
+    margin-top: 6px;
+}
 div.post div.post-body .post-content {
   display: block;
 }
